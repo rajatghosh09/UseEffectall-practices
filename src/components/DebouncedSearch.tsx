@@ -12,7 +12,9 @@ const DeboundSearch = () => {
   const [postList, setPostList] = useState<Post[]>([]);
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
+  //using for input query
   const [debouceQuery, setDebounceQurey] = useState(query);
+
 
   useEffect(() => {
     const time = setTimeout(() => {
