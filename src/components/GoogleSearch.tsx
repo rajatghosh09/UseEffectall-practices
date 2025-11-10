@@ -23,11 +23,6 @@ const GoogleSearch = () => {
     }
   };
 
-  const fun = () => {
-    return
-  }
-  fun()
-
   useEffect(() => {
     findData();
   }, [query]);
